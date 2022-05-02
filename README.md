@@ -18,5 +18,14 @@ This is news app which fetches top headings from news api.
 * By clicking on the link button, app opens article in external web browser.
 
 
-### How to install:
-1. 
+### How to install?
+Prerequisites:
+* Installed Flutter SDK
+* Android emulator or IOS simulator or Android/IOS physical device. 
+
+**Installation:**
+1. Clone or download and extract this repository.
+2. Connect mentioned emulator or pysical device.
+3. Enter this cloned directory and run command: **flutter run**
+
+Happy coding with Flutter :neckbeard:
