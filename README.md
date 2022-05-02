@@ -19,4 +19,4 @@ This is news app which fetches top headings from news api.
 
 
 ### How to install:
-
+1. 
