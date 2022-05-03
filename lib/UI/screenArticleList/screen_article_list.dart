@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:news_demo_app/UI/screenArticleList/article_view.dart';
-import 'package:news_demo_app/models/articles_model.dart';
+import 'package:news_demo_app/domain/article_controller.dart';
+import 'package:news_demo_app/locator.dart';
 import 'package:news_demo_app/network/repository.dart';
 
-import '../../network/repository_impl.dart';
+import '../../domain/models/articles_model.dart';
 
 class ScreenArticleList extends StatefulWidget {
   const ScreenArticleList({Key? key}) : super(key: key);
@@ -15,9 +16,6 @@ class ScreenArticleList extends StatefulWidget {
 
 class _ScreenArticleListState extends State<ScreenArticleList> {
   late Future<List<Article>> _articles;
-
-  // This should be constructed injected with DI tool
-  final Repository repository = RepositoryImpl();
 
   @override
   void initState() {
@@ -73,7 +71,7 @@ class _ScreenArticleListState extends State<ScreenArticleList> {
 
   void getArticles() async {
     setState(() {
-      _articles = repository.getArticles();
+      _articles = locator.get<ArticleController>().getArticles();
     });
   }
 }

@@ -1,8 +1,9 @@
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
-import 'package:news_demo_app/models/articles_model.dart';
 import 'package:news_demo_app/network/repository.dart';
+
+import '../domain/models/articles_model.dart';
 
 class RepositoryImpl extends Repository {
   @override

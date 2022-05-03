@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news_demo_app/UI/screenArticleDetails/screen_article_details.dart';
-import 'package:news_demo_app/models/articles_model.dart';
+
+import '../../domain/models/articles_model.dart';
 
 class ArticleView extends StatelessWidget {
   final Article article;
