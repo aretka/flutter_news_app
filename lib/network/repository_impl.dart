@@ -25,5 +25,7 @@ class RepositoryImpl extends Repository {
   }
 
   static const String _BASE_URL = "https://newsapi.org/v2/top-headlines";
+
+  // api key should be hidden to to prevent exposing it with static code analysis
   static const String _API_KEY = "53dbe05b0b9a4154a8f5b44b2e9201ec";
 }
