@@ -34,7 +34,7 @@ class _ScreenArticleListState extends State<ScreenArticleList> {
             Text('API', style: TextStyle(color: Colors.blue))
           ],
         ),
-        elevation: 0.0,
+        elevation: 1.0,
       ),
       body: RefreshIndicator(
         onRefresh: () async {
