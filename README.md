@@ -26,6 +26,6 @@ Prerequisites:
 **Installation:**
 1. Clone or download and extract this repository.
 2. Connect mentioned emulator or pysical device.
-3. Enter this cloned directory and run command: **flutter run**
+3. Enter cloned directory and run command: **flutter run**
 
 Happy coding with Flutter :neckbeard:
