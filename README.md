@@ -2,8 +2,8 @@
 
 This is news app which fetches top headings from news api.
 <p>
-  <img src="https://user-images.githubusercontent.com/57877668/166260636-02fcd1f2-b1e0-4153-9956-2510d88804b8.gif" width="250" />
-  <img src="https://user-images.githubusercontent.com/57877668/166260597-ae28ebba-ef45-4b3a-87dc-df20ab079026.gif" width="250" />
+  <img src="https://user-images.githubusercontent.com/57877668/166260636-02fcd1f2-b1e0-4153-9956-2510d88804b8.gif" width="280" />
+  <img src="https://user-images.githubusercontent.com/57877668/166260597-ae28ebba-ef45-4b3a-87dc-df20ab079026.gif" width="280" />
 </p>
 
 ### Application consists of 2 screens:
